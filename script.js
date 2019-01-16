@@ -1,6 +1,7 @@
 // Just for testing
+let gallery = document.getElementById("gallery");
 function addGalleryItem(href, alt, description){
-    var gallery = document.getElementById("gallery");
+    //var gallery = document.getElementById("gallery");
     gallery.innerHTML += '<div class="responsive"><div class="galleryItem"><a target="_blank" href="' + href + '"><img src="' + href + '" alt="' + alt + '" height=400px width=600px ></a><div class="description">' + description + '</div></div></div>';
 }
 
